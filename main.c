@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
         // Print each listing
         PrintListings(root, 1);
         // Print total directories and files
-        printf("\n%i %s, %i %s\n", directories, (directories == 1) ? "directory" : "directories", files, (files == 1) ? "file" : "files");
+        printf("\n%i director%s, %i file%s\n", directories, (directories == 1) ? "y" : "ies", files, (files == 1) ? "" : "s");
 
         FreeListings(root);
     }
