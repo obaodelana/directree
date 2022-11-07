@@ -1,5 +1,8 @@
 # Directree 🌲
 ## Directory Tree Generator
+
+![Screenshot](images/1.png)
+
 This is was meant to be a one hour project to try out the `dirent.h` library. But the files were given in a random manner rather than in an ordered sequence (alphabetically, according to size etc).
 
 
